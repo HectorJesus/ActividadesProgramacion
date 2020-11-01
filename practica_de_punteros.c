@@ -39,7 +39,6 @@ main(){
 
 	float promedio = arr(val_num);
 	printf("\nPromedio %.2f", promedio);
-	//printf("\nMayor %.2f", mayor);
 	return 0;
 }
 
@@ -86,6 +85,7 @@ float men(numeros n){
 float arr(numeros ar){
 	return (ar.val1 + ar.val2 + ar.val3)/3;
 }
+//---------------------------------------------------------------------Primera version del codigo ---------------------------------------------------------------------
 /*
 struct valores{
 	float valor1;
