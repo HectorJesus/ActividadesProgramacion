@@ -13,7 +13,7 @@ int main(int argc, char const *argv[])
 		asig.caracter = *argv[1];
 		asig.val_ascci = (int) asig.caracter;
 
-		resultado(asig);
+	resultado(asig);
 
 	printf("Tiene un codigo ascci de %d", asig.val_ascci);
 	
