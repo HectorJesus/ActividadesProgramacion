@@ -41,7 +41,6 @@ char resultado(decision a){
 						printf("El valor %c es caracter especial\n", a.caracter);
 					}
 
-
 	fprintf(punt_file,"Con un valor Ascci de %d\n", a.val_ascci);
 
 	fclose(punt_file);
