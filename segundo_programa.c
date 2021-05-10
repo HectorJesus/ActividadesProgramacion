@@ -19,6 +19,7 @@ int main(){
 	
 	system("pause");
 	return 0;
+	
 }
 
 void piramide_uno(int i){
